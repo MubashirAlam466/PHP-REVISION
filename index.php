@@ -27,3 +27,18 @@ echo "A Value Of Is Sum : $Sum <br> A Value Of Is Subtraction : $Subtraction <br
     //   I Am Working On PHP Variable Date Is : 25/07/2023 And Time Is : 2:00 Am  And Day Is Tuesday !!!
 
 ?>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+</body>
+</html>
