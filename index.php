@@ -87,7 +87,7 @@ else{
         echo "<br>";
         echo "<br>";
 
-$Marksheet = 33;
+$Marksheet = 40;
 
 if($Marksheet >32){
     echo "You Are  Semester Is Pass Congratulation";
@@ -110,7 +110,7 @@ elseif($Marksheet >20){
 if($Marksheet <32){
     echo "You Are  Semester Is Pass Congratulation";
 }
-elseif($Marksheet <30){
+elseif($Marksheet <33){
     echo "You Are  Semester Is Pass Congratulation";
 }
 elseif($Marksheet <25){
@@ -129,6 +129,97 @@ elseif($Marksheet <20){
         echo "<br>";
         echo "<br>";
 
+$age = 16;
+switch($age){
+    case 22:
+    echo "Your Are 22 Years Old Boy <br>";
+        break;
+
+    case 20:
+    echo "Your Are 20 Years Old Boy <br>";
+        break;
+
+    case 18:
+    echo "Your Are 18 Years Old Boy <br>";
+        break;
+
+    case 17:
+    echo "Your Are 17 Years Old Boy <br>";
+        break;
+
+default:
+    echo "Your Age Is Weird <br>";
+    break;
+}
+
+        // Switch case in PHP are control structures that allow the programmer to execute
+        // different blocks of code based on the value of a variable or expression. This
+        // can be particularly useful when dealing with complex conditional statements or
+        // when multiple conditions must be evaluated.
+
+        echo "<br>";
+        // echo "<br>";
+
+    $i = 1;
+    while($i<6){
+        echo "This Value IS : ";
+        echo $i++;
+        echo "<br>";
+        // echo $i++;
+    }
+
+        // The meaning of a while statement is simple. It tells PHP to execute 
+        // the nested statement(s) repeatedly, as long as the while expression evaluates to true .
+
+        echo "<br>";
+        // echo "<br>";
+
+for ($i=1; $i<6 ; $i++) { 
+    echo "<br>";
+    echo "This Value IS : $i ";
+}
+
+echo "<br>";
+
+for ($i=1; $i < 30; $i+=2) { 
+    echo "This Value IS : $i <br>";
+    
+}
+
+    // For loop is a control structure that repeats a block of code as long as a condition is met.
+    // It's usually used to repeat a block of code a certain number of times. The PHP for loop function
+    // can be used to iterate over a set of code for a set number of times.
+
+    echo "<br>";
+    // echo "<br>";
+
+$a = 1;
+do {
+    echo "This Value IS : $a <br>";
+    $a++;
+} while ($a <5);
+
+    // The do...while loop - Loops through a block of code once, and then
+    // repeats the loop as long as the specified condition is true.
+    // n 'while' loop the controlling condition appears at the start of the loop.
+    // In 'do-while' loop the controlling condition appears at the end of the loop.
+    // The iterations do not occur if, the condition at the first iteration, appears false
+
+    echo "<br>";
+    // echo "<br>";
+
+$arr = array ("MotherBoard","Processro","RAM","SSD","HDD","GraphicCard","PowerSupplay","LCD & Mouse/KeyBoard");
+foreach ($arr as $value) {
+    echo "$value <br>";
+}
+
+    // A for-each loop is a loop that can only be used on a collection of items.
+    // It will loop through the collection and each time through the loop it will
+    // use the next item from the collection. It starts with the first item in the array
+    // (the one at index 0) and continues through in order to the last item in the array.
+
+    echo "<br>";
+    // echo "<br>";
 
 
 
