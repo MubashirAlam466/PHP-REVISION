@@ -217,9 +217,48 @@ foreach ($arr as $value) {
     // It will loop through the collection and each time through the loop it will
     // use the next item from the collection. It starts with the first item in the array
     // (the one at index 0) and continues through in order to the last item in the array.
+    // I Am Working On PHP while / for /foreach & do while  Date Is : 28/07/2023 And Time Is : 2:30 Am  And Day Is Friday !!!
 
     echo "<br>";
     // echo "<br>";
+
+function SemesterMarks($arr){
+    $Sum = 0;
+    foreach ($arr as $value) {
+        // $sum++; 
+    }
+    return $value;
+}
+$Mubashir = [95,98,90,97,89];
+$arrmarks = SemesterMarks($Mubashir);
+echo "Total Marks Of Semester $arrmarks  ";
+
+    // A function is a piece of code that takes another input in the form of a parameter,
+    // processes it, and then returns a value. A PHP Function feature is a piece of code
+    // that can be used over and over again and accepts argument lists as input, and returns
+    // a value. PHP comes with thousands of built-in features
+
+    echo "<br>";
+    // echo "<br>";
+
+echo "To Day Date Is Time Live :  ";
+$d = date ( "j/n/o l " );
+// g s  A
+echo ( $d);
+
+    echo "<br>";
+    echo "<br>";
+
+$myfeb = array("Mubashir Alam" => "Programmer" , "Hamza" => "Marketing", "Faizan" => "WordPress ", "Shamier" => "Backend");
+foreach ($myfeb as $key => $value) {
+echo "My Feaild Is The Best $key is $value <br>";
+}
+
+    echo "<br>";
+    echo "<br>";
+
+        
+
 
 
 
