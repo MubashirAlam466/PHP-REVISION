@@ -255,6 +255,22 @@ echo "My Feaild Is The Best $key is $value <br>";
 }
 
     echo "<br>";
+    // echo "<br>";
+
+$Servername = "localhost";
+$username = "root";
+$password = "";
+
+$conn = mysqli_connect($Servername, $username, $password);
+if (!$conn){
+    die ("Sorrey Your Failed To Connect " . mysqli_connect_error());
+}
+else{
+    echo "Connect Was Successful";
+}
+
+
+    echo "<br>";
     echo "<br>";
 
         
